@@ -1,0 +1,30 @@
+@media only screen and (max-width:850px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 34px;
+    }
+    .nav-items>ul{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .nav-items>i{
+        font-size: 40px;
+        color: #fff;
+        padding-left: 14ch;
+    }
+}
+
+@media only screen and (min-width:851px){
+    .nav-items>i{
+        display: none;
+    }
+}
